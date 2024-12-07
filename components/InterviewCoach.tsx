@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ModernUpload from '@/components/ModernUpload';
 import WaitingScreen from '@/components/WaitingScreen';
-import ProgressTimeline from '@/components/ProgressTimeline';
+import ProgressTimeline from '@/components/ui/ProgressTimeline';
 import ResultsPage from '@/components/ResultsPage';
 import { AnswerInput } from '@/components/AnswerInput';
 import { useInterviewState } from '@/app/hooks/useInterviewState';
